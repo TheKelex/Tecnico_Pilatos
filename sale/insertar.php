@@ -20,7 +20,8 @@
 
     } else {
 
-        echo "Debes llenar todos los campos";
+                echo '<script type="text/javascript"> alert("Debes Llenar Todos Los Campos");
+        window.location.href = "./sale.html"; </script>';
 
     }
 
