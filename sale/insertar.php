@@ -14,7 +14,7 @@
 
         $sql = "INSERT INTO registro_sale (id_sale, nombre_sale, apellido_sale, edad_sale, telefono_sale, email_sale, usuario_sale, password_sale, date_sale) VALUES (NULL, '$nombre','$apellido', '$edad', '$telefono', '$email', '$usuario', '$password', NULL)";
         mysqli_query($mysqli, $sql);
-        
+
         echo '<script type="text/javascript"> alert("Tarea Guardada");
         window.location.href = "./sale.html"; </script>';
 
